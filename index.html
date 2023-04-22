@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+    <link  rel="stylesheet" href="style.css">
+    <script>
+       
+        window.onload = function() {
+ 
+          var heading = document.createElement("h1");
+          var heading_text = document.createTextNode("Volte sempre!");
+          heading.appendChild(heading_text);
+          document.body.appendChild(heading);
+          window.alert("Bem vinda!Divirta-se no meu portifólio");
+       }
+       clicada = function () {
+            window.alert("Mensagem enviada");
+        }
+     </script>
+</head>
+<body>
+
+    <h1>Dev.CarlaDani</h1>
+    <a id="home"> Home</a>
+    <nav>
+        <ul class="menu">
+    <li></li><a href= "#apresentacao"> Apresentacao</a></li>
+    <li></li><a href= "#portifolio">Portifolio</a></li>
+    <li></li><a href= "#contato"> Contato</a></li>
+    <li></li><a href= "#stacks"> Stacks</a></li>
+
+</ul>
+</nav>
+<section id ="apresentacao">
+    <h2>Quem sou eu?</h2>
+    <p>Olá mundo, tudo bem?
+        <br>
+        Bem vinde a minha página
+        <br>
+       <span id="resumo">Sou nordestina, curiosa e agora tech.</span> 
+    </p>
+     <img src="minha_foto.png" alt="Auto retrato feito em paint" width=300>
+     <p id="legenda">Imagem de própria autoria, meramente ilustrativa, desenvolvida no Paint(r)</p>
+</section>
+
+<section id="portifolio">
+<h2>Portifólio</h2>
+<p> Somente este site (por enquanto). </p>
+
+</section>
+
+<section id= "stacks">
+    <h2>Stacks</h2>
+    <p>C</p>
+    <img src="c-logo.png" alt="Simbulo do c" width=100>
+    <p>Python</p>
+    <img src="python-logo.png" alt="Simbulo do python" width=100>
+    <p>Excel</p>
+    <img src="excel-logo.png" alt="Simbulo do Excel" width=100>
+</section>
+<hr>
+<section id="contato">
+<h2>Contato</h2>
+<a href="https://www.linkedin.com/in/carla-daniela-nascimento/">Linkedin</a>
+<a href= "https://medium.com/@nascimento.carlad">Medium</a>
+<br>
+<p> <p>+55 (19) XXXX-XXXX</p>
+<label for="nome"> nome:</label>
+<input type="text" id="nome">
+<br>
+<label for="e-mail"> e-mail:</label>
+<input type="text" id="e-mail">
+<br>
+
+<label for="telefone"> telefone:</label>
+<input type="number" id="telefone">
+<br>
+<textarea id="text">mensagem</textarea>
+<br>
+<button id="enviar" onclick="clicada()">enviar</button>
+
+
+
+</section>
+
+</body>
+</html>

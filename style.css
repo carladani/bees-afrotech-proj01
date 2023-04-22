@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+}
+h1{
+    color:whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+
+h2{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    border-radius:30px;
+    background-color: orange;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+
+
+#legenda{
+    font-size: smaller;
+}
+img{
+    border-radius:30px;
+    border:chocolate;}
+nav ul li{
+    display:inline;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: greenyellow;
+
+}
